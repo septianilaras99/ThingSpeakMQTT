@@ -10,14 +10,12 @@
 //kredensial WiFi
 char ssid[] = "Hotspot-laptop";
 char pass[] = "bismillahlulus2021";
-//char ssid[] = "1245";
-//char pass[] = "lalalayeyeye";
 WiFiClient client;
 
 //kredensial publish dan subscribe pada ThingSpeak
-const char mqttUserName[] = "KRAfCQ8FNgAEKjMCOAQJER4";
-const char clientID[] = "KRAfCQ8FNgAEKjMCOAQJER4";
-const char mqttPass[] = "EX1eFAfZjEZWmhSJMay38GGp";
+const char mqttUserName[] = "change this area";
+const char clientID[] = "change this area";
+const char mqttPass[] = "change this area";
 
 //parameter koneksi 
 const char* server = "mqtt3.thingspeak.com";
